@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+   - name: Get Linux Info
+     shell: uname -a > /home/awx/info.txt
